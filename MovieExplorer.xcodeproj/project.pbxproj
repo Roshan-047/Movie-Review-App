@@ -29,9 +29,28 @@
 		33A200622E3E00BE001B80E6 /* MovieExplorerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MovieExplorerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+		33A200952E3E3700001B80E6 /* Exceptions for "MovieExplorer" folder in "Compile Sources" phase from "MovieExplorer" target */ = {
+			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
+			buildPhase = 33A200472E3E00BC001B80E6 /* Sources */;
+			membershipExceptions = (
+				JSON/cast_and_crew.json,
+				JSON/movie_details.json,
+				JSON/nowPlaying.json,
+				JSON/popular.json,
+				JSON/similar.json,
+				JSON/topRated.json,
+				JSON/upcoming.json,
+			);
+		};
+/* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		33A2004D2E3E00BC001B80E6 /* MovieExplorer */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				33A200952E3E3700001B80E6 /* Exceptions for "MovieExplorer" folder in "Compile Sources" phase from "MovieExplorer" target */,
+			);
 			path = MovieExplorer;
 			sourceTree = "<group>";
 		};
