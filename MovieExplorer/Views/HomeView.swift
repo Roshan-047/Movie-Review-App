@@ -32,7 +32,6 @@ struct HomeView: View {
         }
         .task {
             await service.fetchHomeData()
-            await service.testAPIConnection()
         }
     }
 }

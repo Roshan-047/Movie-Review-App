@@ -25,7 +25,7 @@ struct MovieExplorerApp: App {
                     }
             }
             .environmentObject(myListManager)
-            .preferredColorScheme(.dark) // A nice dark theme for the app
+            .preferredColorScheme(.dark)
         }
     }
 }
